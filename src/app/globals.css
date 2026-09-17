@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  --fog: #f4f7ee;
+  --moss: #1f5e33;
+  --lime: #c5f658;
+  --bark: #0b140c;
+  --needles: #4a5c3a;
+  --clay: #dd5041;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--fog);
+  color: var(--bark);
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+h1,
+h2,
+h3,
+.display {
+  font-family: var(--font-sora), ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: -0.04em;
+}
+
+.photo-veil {
+  background: linear-gradient(180deg, rgb(11 20 12 / 8%), rgb(11 20 12 / 55%));
+}
