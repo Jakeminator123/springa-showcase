@@ -5,17 +5,19 @@
 | Provenance | Rekonstruktion från live-original. Ingen git-källa. |
 | Repo | https://github.com/Jakeminator123/springa-showcase |
 | Branch | `preview` |
-| Vercel-project | `springa-showcase` — ett, inget `-revival`. Koppla GitHub i Vercel-UI (samma metod som Byråflöde). |
-| Preview | *lokal* `http://127.0.0.1:43148` · Vercel preview när branchen är kopplad |
+| Vercel-project | `springa-showcase` `prj_iePVciVfftjqjzojmFrnuKCKRIk9` — ett, inget `-revival` |
+| Publik URL | https://springa-showcase.vercel.app |
+| READY-commit | `909d3ed` på `preview` |
+| Deploy | `dpl_DwC9KeHVefrG4KmtehiG8xiNYZyR` (target production — första GitHub-koppling) |
 | Attribution | Baserad på ett exempel skapat med Sajtmaskin |
 | CTA | Vill du bygga en liknande sida för ett lopp eller community? |
 | UTM | `utm_source=springa` |
-| Index | noindex |
+| Index | noindex, robots Disallow |
 | Föreslagen DNS | `springa.exempel.sajtmaskin.se` — **ej skriven** |
 | Sanerat | mejl, kilometertal, “100%”, föreningskänsla |
-| Originalprojekt | orört |
-| QA | lint / typecheck / build pass |
+| Originalprojekt | `prj_SdkNSeYVmSECq0p3CZTswKTHc0EN` orört |
+| QA | lint / typecheck / build + live 200 / 404 / noindex |
 
 ## Rekommendation
 
-keep noindex. Vänta med production-alias. Ingen DNS.
+keep noindex. Ingen DNS. Radera inte originalet.
